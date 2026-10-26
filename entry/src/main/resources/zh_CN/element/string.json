@@ -1,0 +1,648 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "FlowLink"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "代理连接与节点管理"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "FlowLink"
+    },
+    {
+      "name": "app_title",
+      "value": "FlowLink"
+    },
+    {
+      "name": "home_subtitle",
+      "value": "连接概览"
+    },
+    {
+      "name": "node_not_selected",
+      "value": "尚未选择节点"
+    },
+    {
+      "name": "connect_vpn",
+      "value": "点击连接"
+    },
+    {
+      "name": "core_unavailable_hint",
+      "value": "原生内核加载失败，请重新构建并安装应用。"
+    },
+    {
+      "name": "current_node",
+      "value": "当前节点"
+    },
+    {
+      "name": "current_node_empty",
+      "value": "暂无可用节点，先到订阅页保存一个地址。"
+    },
+    {
+      "name": "manage_nodes",
+      "value": "管理节点"
+    },
+    {
+      "name": "manage_subscriptions",
+      "value": "管理订阅"
+    },
+    {
+      "name": "native_ready",
+      "value": "代理内核已就绪"
+    },
+    {
+      "name": "initializing",
+      "value": "正在初始化"
+    },
+    {
+      "name": "native_version_description",
+      "value": "%1$s · OpenHarmony arm64"
+    },
+    {
+      "name": "initializing_description",
+      "value": "正在检查本地存储与 Native 模块。"
+    },
+    {
+      "name": "nodes_title",
+      "value": "节点"
+    },
+    {
+      "name": "nodes_empty_title",
+      "value": "还没有节点"
+    },
+    {
+      "name": "nodes_empty_description",
+      "value": "添加或刷新订阅以载入支持的节点。"
+    },
+    {
+      "name": "open_subscriptions",
+      "value": "前往订阅管理"
+    },
+    {
+      "name": "node_selected",
+      "value": "已选择"
+    },
+    {
+      "name": "node_select",
+      "value": "点击选择"
+    },
+    {
+      "name": "node_endpoint",
+      "value": "%1$s · %2$s:%3$d"
+    },
+    {
+      "name": "subscriptions_title",
+      "value": "订阅"
+    },
+    {
+      "name": "subscriptions_description",
+      "value": "添加服务商提供的订阅地址，获取可用节点。"
+    },
+    {
+      "name": "subscription_address",
+      "value": "订阅地址"
+    },
+    {
+      "name": "subscription_address_placeholder",
+      "value": "https://example.com/subscription"
+    },
+    {
+      "name": "saving_address",
+      "value": "正在获取节点…"
+    },
+    {
+      "name": "save_address",
+      "value": "保存并刷新节点"
+    },
+    {
+      "name": "clear_address",
+      "value": "清除已保存地址"
+    },
+    {
+      "name": "current_version",
+      "value": "当前版本"
+    },
+    {
+      "name": "subscription_scope",
+      "value": "支持 Base64 或明文的 VLESS + TCP + REALITY + Vision 订阅。节点仅保存在内存中，本地只保存订阅地址。"
+    },
+    {
+      "name": "vpn_status_idle",
+      "value": "未连接"
+    },
+    {
+      "name": "vpn_status_starting",
+      "value": "正在连接"
+    },
+    {
+      "name": "vpn_status_connected",
+      "value": "已连接"
+    },
+    {
+      "name": "vpn_status_stopping",
+      "value": "正在断开"
+    },
+    {
+      "name": "vpn_status_error",
+      "value": "连接不可用"
+    },
+    {
+      "name": "vpn_core_unavailable",
+      "value": "原生代理内核不可用。"
+    },
+    {
+      "name": "vpn_select_node",
+      "value": "请先在节点页选择一个节点。"
+    },
+    {
+      "name": "vpn_session_unavailable",
+      "value": "VPN 会话与跨进程状态同步尚未接入。"
+    },
+    {
+      "name": "initialization_failed",
+      "value": "初始化失败，请重新打开应用后重试。"
+    },
+    {
+      "name": "subscription_address_invalid",
+      "value": "请输入有效的 HTTP 或 HTTPS 订阅地址。"
+    },
+    {
+      "name": "subscription_address_saved",
+      "value": "订阅地址已保存。"
+    },
+    {
+      "name": "subscription_save_failed",
+      "value": "保存或获取订阅失败，请检查地址和网络。"
+    },
+    {
+      "name": "subscription_address_cleared",
+      "value": "订阅地址已清除。"
+    },
+    {
+      "name": "subscription_clear_failed",
+      "value": "清除失败，请稍后重试。"
+    },
+    {
+      "name": "subscription_content_empty",
+      "value": "订阅内容为空"
+    },
+    {
+      "name": "subscription_parse_unavailable",
+      "value": "没有可用节点，当前支持 VLESS + TCP + REALITY + Vision。"
+    },
+    {
+      "name": "disconnect_vpn",
+      "value": "断开连接"
+    },
+    {
+      "name": "exit_ip",
+      "value": "已验证的出口 IP"
+    },
+    {
+      "name": "vpn_status_verifying",
+      "value": "正在验证连接"
+    },
+    {
+      "name": "core_available_hint",
+      "value": "双栈 VPN · VLESS / REALITY / Vision"
+    },
+    {
+      "name": "vpn_connection_failed",
+      "value": "连接或出口 IP 验证失败，请检查节点和网络后重试。"
+    },
+    {
+      "name": "subscription_loaded",
+      "value": "已载入 %1$d 个节点，跳过 %2$d 条不支持或无效的记录。"
+    },
+    {
+      "name": "disconnect_before_edit",
+      "value": "请先断开 VPN，再修改订阅。"
+    },
+    {
+      "name": "go_back",
+      "value": "返回"
+    },
+    {
+      "name": "appearance",
+      "value": "外观"
+    },
+    {
+      "name": "theme_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "theme_light",
+      "value": "浅色"
+    },
+    {
+      "name": "theme_dark",
+      "value": "深色"
+    },
+    {
+      "name": "home_connected_hint",
+      "value": "已连接 · 出口已验证"
+    },
+    {
+      "name": "home_connection_hint",
+      "value": "代理范围内的流量将使用所选节点"
+    },
+    {
+      "name": "home_empty_hint",
+      "value": "先添加订阅，再选择一个节点开始连接。"
+    },
+    {
+      "name": "retry_connection",
+      "value": "重新连接"
+    },
+    {
+      "name": "disconnect_before_select",
+      "value": "请先断开 VPN，再更换节点。"
+    },
+    {
+      "name": "node_selection_hint",
+      "value": "选择节点后返回首页，即可连接。"
+    },
+    {
+      "name": "subscription_privacy",
+      "value": "地址默认隐藏，可点眼睛查看。本机保存订阅地址，节点仅用于本机连接。"
+    },
+    {
+      "name": "clear_input",
+      "value": "清空输入"
+    },
+    {
+      "name": "clear_address_confirmation",
+      "value": "清除已保存的订阅地址和当前节点列表？此操作不会取消订阅服务。"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "confirm_clear",
+      "value": "清除"
+    },
+    {
+      "name": "region_hk",
+      "value": "中国香港"
+    },
+    {
+      "name": "region_jp",
+      "value": "日本"
+    },
+    {
+      "name": "region_sg",
+      "value": "新加坡"
+    },
+    {
+      "name": "region_de",
+      "value": "德国"
+    },
+    {
+      "name": "region_us",
+      "value": "美国"
+    },
+    {
+      "name": "region_gb",
+      "value": "英国"
+    },
+    {
+      "name": "region_tw",
+      "value": "中国台湾"
+    },
+    {
+      "name": "appearance_failed",
+      "value": "切换外观失败，请重试。"
+    },
+    {
+      "name": "home_refresh_hint",
+      "value": "尚未获取到节点，请到订阅页刷新或检查网络。"
+    },
+    {
+      "name": "brand_wordmark",
+      "value": "FLOWLINK"
+    },
+    {
+      "name": "tab_home",
+      "value": "首页"
+    },
+    {
+      "name": "tab_subscriptions",
+      "value": "订阅"
+    },
+    {
+      "name": "tab_settings",
+      "value": "设置"
+    },
+    {
+      "name": "connection_idle_title",
+      "value": "当前未连接"
+    },
+    {
+      "name": "connection_active_title",
+      "value": "安全连接中"
+    },
+    {
+      "name": "switch_node",
+      "value": "切换"
+    },
+    {
+      "name": "proxy_mode",
+      "value": "代理模式"
+    },
+    {
+      "name": "mode_global",
+      "value": "全局模式"
+    },
+    {
+      "name": "mode_rule",
+      "value": "规则模式"
+    },
+    {
+      "name": "mode_direct",
+      "value": "直连模式"
+    },
+    {
+      "name": "mode_global_desc",
+      "value": "代理范围内流量使用所选节点"
+    },
+    {
+      "name": "mode_rule_desc",
+      "value": "按配置规则决定连接方式"
+    },
+    {
+      "name": "mode_direct_desc",
+      "value": "代理范围内流量不经代理节点"
+    },
+    {
+      "name": "mode_subtitle",
+      "value": "选择代理范围内流量的处理方式"
+    },
+    {
+      "name": "mode_supported_hint",
+      "value": "当前内核仅支持全局模式，规则和直连模式尚未接入。"
+    },
+    {
+      "name": "mode_applied",
+      "value": "已应用"
+    },
+    {
+      "name": "mode_apply",
+      "value": "应用设置"
+    },
+    {
+      "name": "mode_current",
+      "value": "当前已应用模式"
+    },
+    {
+      "name": "download_rate",
+      "value": "下载速率"
+    },
+    {
+      "name": "upload_rate",
+      "value": "上传速率"
+    },
+    {
+      "name": "metrics_pending",
+      "value": "流量统计暂未接入"
+    },
+    {
+      "name": "node_search",
+      "value": "搜索节点名称"
+    },
+    {
+      "name": "nodes_all",
+      "value": "全部节点"
+    },
+    {
+      "name": "nodes_asia",
+      "value": "亚洲"
+    },
+    {
+      "name": "nodes_europe",
+      "value": "欧洲"
+    },
+    {
+      "name": "source_subscription",
+      "value": "来源订阅"
+    },
+    {
+      "name": "source_all",
+      "value": "全部来源"
+    },
+    {
+      "name": "sort_name",
+      "value": "按名称"
+    },
+    {
+      "name": "sort_original",
+      "value": "原始顺序"
+    },
+    {
+      "name": "speed_test",
+      "value": "批量测速"
+    },
+    {
+      "name": "speed_unavailable",
+      "value": "测速暂未接入，延迟显示为未知。"
+    },
+    {
+      "name": "no_search_results",
+      "value": "未找到匹配节点"
+    },
+    {
+      "name": "reset_filters",
+      "value": "重置筛选"
+    },
+    {
+      "name": "add_subscription",
+      "value": "添加订阅"
+    },
+    {
+      "name": "edit_subscription",
+      "value": "编辑订阅"
+    },
+    {
+      "name": "subscription_name",
+      "value": "订阅名称"
+    },
+    {
+      "name": "subscription_name_placeholder",
+      "value": "给订阅起个名字"
+    },
+    {
+      "name": "subscription_name_required",
+      "value": "请输入订阅名称"
+    },
+    {
+      "name": "subscription_default_name",
+      "value": "我的订阅"
+    },
+    {
+      "name": "subscription_sources",
+      "value": "已配置 %1$d 个订阅来源"
+    },
+    {
+      "name": "subscription_single_hint",
+      "value": "当前版本支持一个订阅来源，可编辑链接来替换。"
+    },
+    {
+      "name": "subscription_update",
+      "value": "更新订阅"
+    },
+    {
+      "name": "subscription_delete",
+      "value": "删除订阅"
+    },
+    {
+      "name": "subscription_edit",
+      "value": "编辑链接"
+    },
+    {
+      "name": "subscription_usage",
+      "value": "流量额度"
+    },
+    {
+      "name": "subscription_expiry",
+      "value": "到期时间"
+    },
+    {
+      "name": "subscription_last_update",
+      "value": "最近更新"
+    },
+    {
+      "name": "data_unknown",
+      "value": "暂无数据"
+    },
+    {
+      "name": "subscription_empty_title",
+      "value": "还没有订阅"
+    },
+    {
+      "name": "subscription_empty_desc",
+      "value": "添加订阅链接，获取可用节点。"
+    },
+    {
+      "name": "subscription_form_desc",
+      "value": "填写服务商提供的订阅链接，保存后获取节点。"
+    },
+    {
+      "name": "import_config",
+      "value": "导入配置文件"
+    },
+    {
+      "name": "import_unavailable",
+      "value": "当前支持 HTTP/HTTPS 订阅链接，配置文件导入暂未接入。"
+    },
+    {
+      "name": "paste_failed",
+      "value": "未能读取剪贴板，请手动粘贴。"
+    },
+    {
+      "name": "discard_title",
+      "value": "放弃修改？"
+    },
+    {
+      "name": "discard_message",
+      "value": "未保存的订阅信息将丢失。"
+    },
+    {
+      "name": "discard_confirm",
+      "value": "放弃"
+    },
+    {
+      "name": "core_title",
+      "value": "代理内核"
+    },
+    {
+      "name": "settings_subtitle",
+      "value": "外观与应用信息"
+    },
+    {
+      "name": "appearance_description",
+      "value": "选择浅色、深色或跟随系统"
+    },
+    {
+      "name": "node_latency_unknown",
+      "value": "延迟未知"
+    },
+    {
+      "name": "exit_ipv4",
+      "value": "IPv4 出口"
+    },
+    {
+      "name": "exit_ipv6",
+      "value": "IPv6 出口"
+    },
+    {
+      "name": "ipv4_probe_unavailable",
+      "value": "IPv4 出口探测未通过"
+    },
+    {
+      "name": "ipv6_probe_unavailable",
+      "value": "IPv6 出口探测未通过"
+    },
+    {
+      "name": "sort_latency",
+      "value": "按延迟"
+    },
+    {
+      "name": "latency_ms",
+      "value": "%1$d ms"
+    },
+    {
+      "name": "latency_pending",
+      "value": "等待中"
+    },
+    {
+      "name": "latency_testing",
+      "value": "测速中"
+    },
+    {
+      "name": "latency_timeout",
+      "value": "超时"
+    },
+    {
+      "name": "latency_failed",
+      "value": "失败"
+    },
+    {
+      "name": "latency_cancelled",
+      "value": "已取消"
+    },
+    {
+      "name": "latency_cancel",
+      "value": "取消测速"
+    },
+    {
+      "name": "latency_cancelling",
+      "value": "正在取消…"
+    },
+    {
+      "name": "latency_progress",
+      "value": "正在测速 %1$d / %2$d"
+    },
+    {
+      "name": "latency_finished",
+      "value": "测速完成：%1$d / %2$d 个节点成功"
+    },
+    {
+      "name": "latency_cancelled_summary",
+      "value": "测速已取消，已完成 %1$d / %2$d"
+    },
+    {
+      "name": "latency_description",
+      "value": "测试开始时的筛选结果 · HTTPS 请求耗时 · 单节点超时 8 秒"
+    },
+    {
+      "name": "latency_busy",
+      "value": "测速进行中，请在节点页取消或等待完成后再连接、更换节点或编辑订阅。"
+    },
+    {
+      "name": "latency_unavailable",
+      "value": "无法开始测速，请先断开 VPN，确认网络和内核可用后重试。"
+    }
+  ]
+}

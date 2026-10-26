@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-21",
+  "policy": "automation",
+  "artifactDir": "docs/verification/ipv6-20261021",
+  "target": "connected-test-phone",
+  "redactionPolicy": "omit-subscriptions-credentials-device-identifiers-and-exit-addresses",
+  "operations": [
+    {
+      "operation": "app.build.install.start",
+      "riskLevel": "automation",
+      "sourceCommand": "devecocli run --device <connected-test-phone>",
+      "decision": "allowed",
+      "result": "build-install-start-success",
+      "redactionStatus": "summary-only"
+    },
+    {
+      "operation": "ui.layout-and-input",
+      "riskLevel": "automation",
+      "sourceCommand": "devecocli ui layout/click/text --device <connected-test-phone>",
+      "decision": "allowed",
+      "result": "tested-node-selection-connection-and-disconnection",
+      "redactionStatus": "raw-layout-not-retained"
+    },
+    {
+      "operation": "bounded-app-tag-logs",
+      "riskLevel": "evidence",
+      "sourceCommand": "hdc -t <connected-test-phone> shell hilog -x -T HarmonyProxyVpn",
+      "decision": "allowed",
+      "result": "ipv4-tun-byte-counters-verified-ipv6-public-egress-unverified",
+      "redactionStatus": "counters-only-in-docs-ipv6-support.md"
+    },
+    {
+      "operation": "ipv6-route-query",
+      "riskLevel": "readonly",
+      "sourceCommand": "hdc -t <connected-test-phone> shell ip -6 route show",
+      "decision": "allowed",
+      "result": "ip-command-unavailable",
+      "redactionStatus": "no-route-table-retained"
+    }
+  ],
+  "artifacts": ["docs/ipv6-support.md"],
+  "publicIpv6Acceptance": "pending-known-capable-upstream-node"
+}

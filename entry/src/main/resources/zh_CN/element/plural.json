@@ -1,0 +1,17 @@
+{
+  "plural": [
+    {
+      "name": "node_count",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d 个节点"
+        },
+        {
+          "quantity": "other",
+          "value": "%d 个节点"
+        }
+      ]
+    }
+  ]
+}

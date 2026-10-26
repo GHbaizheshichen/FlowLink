@@ -1,0 +1,12 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "HarmonyProxy application entry",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "libproxy_core.so": "file:./src/main/cpp/types/libproxy_core"
+  }
+}
+

@@ -1,0 +1,10 @@
+export const getVersion: () => string;
+export const isAvailable: () => boolean;
+export const start: (config: string) => Promise<string>;
+export const startTunnel: (fd: number, yaml: string) => Promise<string>;
+export const stop: () => Promise<string>;
+export const stats: () => Promise<string>;
+export const beginLatencyBatch: (id: string) => Promise<string>;
+export const measureLatency: (config: string, id: string) => Promise<string>;
+export const cancelLatencyBatch: (id: string) => Promise<string>;
+export const endLatencyBatch: (id: string) => Promise<string>;

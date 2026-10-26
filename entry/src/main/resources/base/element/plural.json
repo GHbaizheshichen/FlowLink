@@ -1,0 +1,17 @@
+{
+  "plural": [
+    {
+      "name": "node_count",
+      "value": [
+        {
+          "quantity": "one",
+          "value": "%d node"
+        },
+        {
+          "quantity": "other",
+          "value": "%d nodes"
+        }
+      ]
+    }
+  ]
+}

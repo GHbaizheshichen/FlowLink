@@ -1,0 +1,160 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#0D1320"
+    },
+    {
+      "name": "page_background",
+      "value": "#0D1320"
+    },
+    {
+      "name": "surface_background",
+      "value": "#192334"
+    },
+    {
+      "name": "text_primary",
+      "value": "#F1F4FA"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#A6B1C5"
+    },
+    {
+      "name": "accent",
+      "value": "#85ACFF"
+    },
+    {
+      "name": "primary_button_background",
+      "value": "#3268D6"
+    },
+    {
+      "name": "primary_button_text",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "secondary_button_background",
+      "value": "#203F48"
+    },
+    {
+      "name": "secondary_button_text",
+      "value": "#91DECE"
+    },
+    {
+      "name": "input_background",
+      "value": "#172132"
+    },
+    {
+      "name": "input_placeholder",
+      "value": "#A0ACC0"
+    },
+    {
+      "name": "hero_background",
+      "value": "#141E30"
+    },
+    {
+      "name": "hero_text_primary",
+      "value": "#F1F4FA"
+    },
+    {
+      "name": "hero_text_secondary",
+      "value": "#A6B1C5"
+    },
+    {
+      "name": "hero_button_background",
+      "value": "#192334"
+    },
+    {
+      "name": "hero_button_text",
+      "value": "#85ACFF"
+    },
+    {
+      "name": "brand_background",
+      "value": "#1C2D4C"
+    },
+    {
+      "name": "brand_icon",
+      "value": "#85ACFF"
+    },
+    {
+      "name": "outline",
+      "value": "#303B50"
+    },
+    {
+      "name": "surface_outline",
+      "value": "#2B354A"
+    },
+    {
+      "name": "selected_background",
+      "value": "#1D2B45"
+    },
+    {
+      "name": "selected_outline",
+      "value": "#6493F0"
+    },
+    {
+      "name": "status_background",
+      "value": "#1B2538"
+    },
+    {
+      "name": "power_halo",
+      "value": "#121C2D"
+    },
+    {
+      "name": "power_center",
+      "value": "#1A263A"
+    },
+    {
+      "name": "power_halo_active",
+      "value": "#173B40"
+    },
+    {
+      "name": "power_center_active",
+      "value": "#20434A"
+    },
+    {
+      "name": "icon_background",
+      "value": "#20304C"
+    },
+    {
+      "name": "protocol_background",
+      "value": "#243047"
+    },
+    {
+      "name": "danger",
+      "value": "#F4A8B8"
+    },
+    {
+      "name": "danger_background",
+      "value": "#3C2536"
+    },
+    {
+      "name": "success",
+      "value": "#79D7C2"
+    },
+    {
+      "name": "region_hk",
+      "value": "#263047"
+    },
+    {
+      "name": "region_jp",
+      "value": "#263047"
+    },
+    {
+      "name": "region_sg",
+      "value": "#263047"
+    },
+    {
+      "name": "region_de",
+      "value": "#263047"
+    },
+    {
+      "name": "region_other",
+      "value": "#263047"
+    },
+    {
+      "name": "region_text",
+      "value": "#F1A4BC"
+    }
+  ]
+}

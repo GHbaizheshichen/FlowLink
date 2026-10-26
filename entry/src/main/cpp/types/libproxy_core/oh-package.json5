@@ -1,0 +1,6 @@
+{
+  "name": "libproxy_core.so",
+  "version": "0.1.0",
+  "description": "HarmonyProxy native bridge",
+  "types": "./index.d.ts"
+}

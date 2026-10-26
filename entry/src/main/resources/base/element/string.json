@@ -1,0 +1,648 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "FlowLink"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Proxy connections and node management"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "FlowLink"
+    },
+    {
+      "name": "app_title",
+      "value": "FlowLink"
+    },
+    {
+      "name": "home_subtitle",
+      "value": "Connection overview"
+    },
+    {
+      "name": "node_not_selected",
+      "value": "No node selected"
+    },
+    {
+      "name": "connect_vpn",
+      "value": "Connect"
+    },
+    {
+      "name": "core_unavailable_hint",
+      "value": "The native core could not be loaded. Rebuild and reinstall the app."
+    },
+    {
+      "name": "current_node",
+      "value": "Current node"
+    },
+    {
+      "name": "current_node_empty",
+      "value": "No nodes available. Save a subscription address to get started."
+    },
+    {
+      "name": "manage_nodes",
+      "value": "Manage nodes"
+    },
+    {
+      "name": "manage_subscriptions",
+      "value": "Manage subscriptions"
+    },
+    {
+      "name": "native_ready",
+      "value": "Proxy core ready"
+    },
+    {
+      "name": "initializing",
+      "value": "Initializing"
+    },
+    {
+      "name": "native_version_description",
+      "value": "%1$s · OpenHarmony arm64"
+    },
+    {
+      "name": "initializing_description",
+      "value": "Checking local storage and the Native module."
+    },
+    {
+      "name": "nodes_title",
+      "value": "Nodes"
+    },
+    {
+      "name": "nodes_empty_title",
+      "value": "No nodes yet"
+    },
+    {
+      "name": "nodes_empty_description",
+      "value": "Add or refresh a subscription to load supported nodes."
+    },
+    {
+      "name": "open_subscriptions",
+      "value": "Open subscriptions"
+    },
+    {
+      "name": "node_selected",
+      "value": "Selected"
+    },
+    {
+      "name": "node_select",
+      "value": "Tap to select"
+    },
+    {
+      "name": "node_endpoint",
+      "value": "%1$s · %2$s:%3$d"
+    },
+    {
+      "name": "subscriptions_title",
+      "value": "Subscriptions"
+    },
+    {
+      "name": "subscriptions_description",
+      "value": "Add the address from your provider to load available nodes."
+    },
+    {
+      "name": "subscription_address",
+      "value": "Subscription address"
+    },
+    {
+      "name": "subscription_address_placeholder",
+      "value": "https://example.com/subscription"
+    },
+    {
+      "name": "saving_address",
+      "value": "Fetching nodes…"
+    },
+    {
+      "name": "save_address",
+      "value": "Save and refresh nodes"
+    },
+    {
+      "name": "clear_address",
+      "value": "Clear saved address"
+    },
+    {
+      "name": "current_version",
+      "value": "Current version"
+    },
+    {
+      "name": "subscription_scope",
+      "value": "Supports Base64 or plain VLESS + TCP + REALITY + Vision subscriptions. Nodes remain in memory; only the subscription address is saved."
+    },
+    {
+      "name": "vpn_status_idle",
+      "value": "Disconnected"
+    },
+    {
+      "name": "vpn_status_starting",
+      "value": "Connecting"
+    },
+    {
+      "name": "vpn_status_connected",
+      "value": "Connected"
+    },
+    {
+      "name": "vpn_status_stopping",
+      "value": "Disconnecting"
+    },
+    {
+      "name": "vpn_status_error",
+      "value": "Connection unavailable"
+    },
+    {
+      "name": "vpn_core_unavailable",
+      "value": "The native proxy core is unavailable."
+    },
+    {
+      "name": "vpn_select_node",
+      "value": "Select a node on the Nodes page first."
+    },
+    {
+      "name": "vpn_session_unavailable",
+      "value": "VPN sessions and cross-process status synchronization are not integrated yet."
+    },
+    {
+      "name": "initialization_failed",
+      "value": "Initialization failed. Reopen the app to try again."
+    },
+    {
+      "name": "subscription_address_invalid",
+      "value": "Enter a valid HTTP or HTTPS subscription address."
+    },
+    {
+      "name": "subscription_address_saved",
+      "value": "Subscription address saved."
+    },
+    {
+      "name": "subscription_save_failed",
+      "value": "Could not save or fetch this subscription. Check the address and network."
+    },
+    {
+      "name": "subscription_address_cleared",
+      "value": "Subscription address cleared."
+    },
+    {
+      "name": "subscription_clear_failed",
+      "value": "Could not clear the address. Try again later."
+    },
+    {
+      "name": "subscription_content_empty",
+      "value": "The subscription is empty."
+    },
+    {
+      "name": "subscription_parse_unavailable",
+      "value": "No supported nodes found. This version supports VLESS + TCP + REALITY + Vision."
+    },
+    {
+      "name": "disconnect_vpn",
+      "value": "Disconnect"
+    },
+    {
+      "name": "exit_ip",
+      "value": "Verified exit IP"
+    },
+    {
+      "name": "vpn_status_verifying",
+      "value": "Verifying connection"
+    },
+    {
+      "name": "core_available_hint",
+      "value": "Dual-stack VPN · VLESS / REALITY / Vision"
+    },
+    {
+      "name": "vpn_connection_failed",
+      "value": "Could not connect or verify the exit IP. Check the node and network, then try again."
+    },
+    {
+      "name": "subscription_loaded",
+      "value": "Loaded %1$d nodes; skipped %2$d unsupported or invalid entries."
+    },
+    {
+      "name": "disconnect_before_edit",
+      "value": "Disconnect the VPN before changing subscriptions."
+    },
+    {
+      "name": "go_back",
+      "value": "Back"
+    },
+    {
+      "name": "appearance",
+      "value": "Appearance"
+    },
+    {
+      "name": "theme_system",
+      "value": "Follow system"
+    },
+    {
+      "name": "theme_light",
+      "value": "Light"
+    },
+    {
+      "name": "theme_dark",
+      "value": "Dark"
+    },
+    {
+      "name": "home_connected_hint",
+      "value": "Connected · Exit IP verified"
+    },
+    {
+      "name": "home_connection_hint",
+      "value": "Traffic in proxy scope will use the selected node"
+    },
+    {
+      "name": "home_empty_hint",
+      "value": "Add a subscription, then select a node to connect."
+    },
+    {
+      "name": "retry_connection",
+      "value": "Retry connection"
+    },
+    {
+      "name": "disconnect_before_select",
+      "value": "Disconnect the VPN before changing nodes."
+    },
+    {
+      "name": "node_selection_hint",
+      "value": "Select a node to return home and connect."
+    },
+    {
+      "name": "subscription_privacy",
+      "value": "The address is hidden by default. Tap the eye to view it. Your address is saved on this device; nodes are used for local connections."
+    },
+    {
+      "name": "clear_input",
+      "value": "Clear input"
+    },
+    {
+      "name": "clear_address_confirmation",
+      "value": "Clear the saved subscription address and current node list? This does not cancel your subscription service."
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "confirm_clear",
+      "value": "Clear"
+    },
+    {
+      "name": "region_hk",
+      "value": "Hong Kong, China"
+    },
+    {
+      "name": "region_jp",
+      "value": "Japan"
+    },
+    {
+      "name": "region_sg",
+      "value": "Singapore"
+    },
+    {
+      "name": "region_de",
+      "value": "Germany"
+    },
+    {
+      "name": "region_us",
+      "value": "United States"
+    },
+    {
+      "name": "region_gb",
+      "value": "United Kingdom"
+    },
+    {
+      "name": "region_tw",
+      "value": "Taiwan, China"
+    },
+    {
+      "name": "appearance_failed",
+      "value": "Could not change the appearance. Try again."
+    },
+    {
+      "name": "home_refresh_hint",
+      "value": "No nodes loaded. Open Subscriptions to refresh or check your network."
+    },
+    {
+      "name": "brand_wordmark",
+      "value": "FLOWLINK"
+    },
+    {
+      "name": "tab_home",
+      "value": "Home"
+    },
+    {
+      "name": "tab_subscriptions",
+      "value": "Subscriptions"
+    },
+    {
+      "name": "tab_settings",
+      "value": "Settings"
+    },
+    {
+      "name": "connection_idle_title",
+      "value": "Disconnected"
+    },
+    {
+      "name": "connection_active_title",
+      "value": "Secure connection"
+    },
+    {
+      "name": "switch_node",
+      "value": "Switch"
+    },
+    {
+      "name": "proxy_mode",
+      "value": "Proxy mode"
+    },
+    {
+      "name": "mode_global",
+      "value": "Global mode"
+    },
+    {
+      "name": "mode_rule",
+      "value": "Rule mode"
+    },
+    {
+      "name": "mode_direct",
+      "value": "Direct mode"
+    },
+    {
+      "name": "mode_global_desc",
+      "value": "Traffic in proxy scope uses the selected node"
+    },
+    {
+      "name": "mode_rule_desc",
+      "value": "Routes traffic according to configured rules"
+    },
+    {
+      "name": "mode_direct_desc",
+      "value": "Traffic in proxy scope bypasses proxy nodes"
+    },
+    {
+      "name": "mode_subtitle",
+      "value": "Choose how traffic in proxy scope is handled"
+    },
+    {
+      "name": "mode_supported_hint",
+      "value": "The current core supports Global mode. Rule and Direct modes are not available yet."
+    },
+    {
+      "name": "mode_applied",
+      "value": "Applied"
+    },
+    {
+      "name": "mode_apply",
+      "value": "Apply settings"
+    },
+    {
+      "name": "mode_current",
+      "value": "Currently applied"
+    },
+    {
+      "name": "download_rate",
+      "value": "Download"
+    },
+    {
+      "name": "upload_rate",
+      "value": "Upload"
+    },
+    {
+      "name": "metrics_pending",
+      "value": "Traffic statistics are not available yet"
+    },
+    {
+      "name": "node_search",
+      "value": "Search node names"
+    },
+    {
+      "name": "nodes_all",
+      "value": "All nodes"
+    },
+    {
+      "name": "nodes_asia",
+      "value": "Asia"
+    },
+    {
+      "name": "nodes_europe",
+      "value": "Europe"
+    },
+    {
+      "name": "source_subscription",
+      "value": "Subscription source"
+    },
+    {
+      "name": "source_all",
+      "value": "All sources"
+    },
+    {
+      "name": "sort_name",
+      "value": "By name"
+    },
+    {
+      "name": "sort_original",
+      "value": "Original order"
+    },
+    {
+      "name": "speed_test",
+      "value": "Test latency"
+    },
+    {
+      "name": "speed_unavailable",
+      "value": "Latency testing is not available. Latency is unknown."
+    },
+    {
+      "name": "no_search_results",
+      "value": "No matching nodes"
+    },
+    {
+      "name": "reset_filters",
+      "value": "Reset filters"
+    },
+    {
+      "name": "add_subscription",
+      "value": "Add subscription"
+    },
+    {
+      "name": "edit_subscription",
+      "value": "Edit subscription"
+    },
+    {
+      "name": "subscription_name",
+      "value": "Subscription name"
+    },
+    {
+      "name": "subscription_name_placeholder",
+      "value": "Name this subscription"
+    },
+    {
+      "name": "subscription_name_required",
+      "value": "Enter a subscription name"
+    },
+    {
+      "name": "subscription_default_name",
+      "value": "My subscription"
+    },
+    {
+      "name": "subscription_sources",
+      "value": "%1$d subscription source configured"
+    },
+    {
+      "name": "subscription_single_hint",
+      "value": "This version supports one source. Edit its link to replace it."
+    },
+    {
+      "name": "subscription_update",
+      "value": "Refresh subscription"
+    },
+    {
+      "name": "subscription_delete",
+      "value": "Delete subscription"
+    },
+    {
+      "name": "subscription_edit",
+      "value": "Edit link"
+    },
+    {
+      "name": "subscription_usage",
+      "value": "Data allowance"
+    },
+    {
+      "name": "subscription_expiry",
+      "value": "Expires"
+    },
+    {
+      "name": "subscription_last_update",
+      "value": "Last updated"
+    },
+    {
+      "name": "data_unknown",
+      "value": "Not available"
+    },
+    {
+      "name": "subscription_empty_title",
+      "value": "No subscriptions yet"
+    },
+    {
+      "name": "subscription_empty_desc",
+      "value": "Add a subscription link to load available nodes."
+    },
+    {
+      "name": "subscription_form_desc",
+      "value": "Enter the subscription link from your provider to load nodes."
+    },
+    {
+      "name": "import_config",
+      "value": "Import configuration"
+    },
+    {
+      "name": "import_unavailable",
+      "value": "HTTP/HTTPS subscription links are supported. Configuration file import is not available yet."
+    },
+    {
+      "name": "paste_failed",
+      "value": "Could not read the clipboard. Paste the link manually."
+    },
+    {
+      "name": "discard_title",
+      "value": "Discard changes?"
+    },
+    {
+      "name": "discard_message",
+      "value": "Your unsaved subscription changes will be lost."
+    },
+    {
+      "name": "discard_confirm",
+      "value": "Discard"
+    },
+    {
+      "name": "core_title",
+      "value": "Proxy core"
+    },
+    {
+      "name": "settings_subtitle",
+      "value": "Appearance and app information"
+    },
+    {
+      "name": "appearance_description",
+      "value": "Choose Light, Dark, or follow the system"
+    },
+    {
+      "name": "node_latency_unknown",
+      "value": "Latency unknown"
+    },
+    {
+      "name": "exit_ipv4",
+      "value": "IPv4 exit"
+    },
+    {
+      "name": "exit_ipv6",
+      "value": "IPv6 exit"
+    },
+    {
+      "name": "ipv4_probe_unavailable",
+      "value": "IPv4 exit probe did not pass"
+    },
+    {
+      "name": "ipv6_probe_unavailable",
+      "value": "IPv6 exit probe did not pass"
+    },
+    {
+      "name": "sort_latency",
+      "value": "By latency"
+    },
+    {
+      "name": "latency_ms",
+      "value": "%1$d ms"
+    },
+    {
+      "name": "latency_pending",
+      "value": "Queued"
+    },
+    {
+      "name": "latency_testing",
+      "value": "Testing"
+    },
+    {
+      "name": "latency_timeout",
+      "value": "Timed out"
+    },
+    {
+      "name": "latency_failed",
+      "value": "Failed"
+    },
+    {
+      "name": "latency_cancelled",
+      "value": "Cancelled"
+    },
+    {
+      "name": "latency_cancel",
+      "value": "Cancel test"
+    },
+    {
+      "name": "latency_cancelling",
+      "value": "Cancelling…"
+    },
+    {
+      "name": "latency_progress",
+      "value": "Testing %1$d / %2$d"
+    },
+    {
+      "name": "latency_finished",
+      "value": "Test complete: %1$d / %2$d nodes succeeded"
+    },
+    {
+      "name": "latency_cancelled_summary",
+      "value": "Cancelled after %1$d / %2$d tests"
+    },
+    {
+      "name": "latency_description",
+      "value": "Tests the initial filtered list · HTTPS request time · 8 s timeout per node"
+    },
+    {
+      "name": "latency_busy",
+      "value": "Testing in progress. Cancel on the Nodes page or wait before connecting, changing nodes, or editing subscriptions."
+    },
+    {
+      "name": "latency_unavailable",
+      "value": "Could not start. Disconnect the VPN and check the network and core, then retry."
+    }
+  ]
+}
